@@ -1,0 +1,1 @@
+python -m PyInstaller Perudo-Assistant.py --onefile --windowed --noconsole
