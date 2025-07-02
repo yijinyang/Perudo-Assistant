@@ -92,7 +92,7 @@ class PerudoCalculator:
         ttk.Button(players_row, text="-", width=3, 
                   command=lambda: self.change_opponents(-1)).pack(side=tk.LEFT, padx=5)
         
-        ttk.Checkbutton(players_row, text="Allow >5 players", 
+        ttk.Checkbutton(players_row, text="Allow More Opponents", 
                       variable=self.allow_more_players).pack(side=tk.LEFT, padx=10)
         
         self.opponent_frame = ttk.Frame(players_frame)
